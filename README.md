@@ -4,7 +4,7 @@ Customizable npm packaged Angular2 tooltip component
 #Requirements
 NodeJs
 
-Angular2 version 2.1.1
+Angular2 version 2.4.3
 
 
 #Usage
@@ -16,12 +16,12 @@ npm install angular2-tooltip --save
 ```typescript
 import {NgModule} from "@angular/core";
 ...
-import {TooltipModule} from 'ng2-tooltip'
+import {ToolTipModule} from 'angular2-tooltip'
  
 @NgModule({
     imports: [
         ...
-        TooltipModule
+        ToolTipModule
     ],
     ...
 })
@@ -88,6 +88,8 @@ To test or check the working of this component, clone from git repository.
 > git clone https://github.com/bharatraj88/angular2-tooltip
  
 > npm install
+
+> typings install
 
 > npm test
 
